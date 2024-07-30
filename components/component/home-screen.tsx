@@ -333,9 +333,10 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Skills and Experience</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;m a skilled software engineer with a passion for building innovative and user-friendly web
-                  applications. I have experience working with a variety of technologies and frameworks, and I&apos;m always
-                  eager to learn new things.
+                  I&apos;m a skilled engineer with a passion for building innovative control systems using novel technologies.
+                  My areas of interest are: Deep Learning, Reinforcement Learning, Control Theory,
+                  Operations Research,  Evolutionary Algorithms, Swarming Intelligence and Intelligent Controls. Open to working
+                  on new projects and collaborations in different fields.
                 </p>
               </div>
             </div>
@@ -344,27 +345,42 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <ul className="grid gap-6">
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Front-end Development</h3>
+                      <h3 className="text-xl font-bold">Controls Engineering</h3>
                       <p className="text-muted-foreground">
-                        Proficient in React, Next.js, and Tailwind CSS. Experienced in building responsive and
-                        accessible user interfaces.
+                        Proficient in Matlab/Simulink, Python, C and C++. Experienced in designing and implementing control systems
+                        both PID and MPC, for a hydrogen race car and autonomous vehicle in real-life. Also, VOR, pitch-rate and GNC satellite using PID, and a
+                        urban air mobility vehicle using MPC; in simulation for University projects. Developed FSMs, tuned controllers in real-life and implemented
+                        evolutionary algorithms (GA and PSO) to optimize controllers.
+                        <br />
+                        <em>Intelligent control systems:</em> Data-driven modelling (LNN, GPR) and Iterative Learning Control.
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Back-end Development</h3>
+                      <h3 className="text-xl font-bold">Artificial Intelligence</h3>
                       <p className="text-muted-foreground">
-                        Skilled in Node.js, Express, and MongoDB. Experienced in building scalable and secure APIs.
+                        Proficient in Python, Pytorch and OpenCV.
+                        <br />
+                        <em>Data driven modelling:</em> LNN for double pendulum simulation & NARX for system identification of a hydrogen flow simulation.
+                        <br />
+                        <em>Deep Learning:</em> 3D CNN for semantic segmentation of mouse embryogenesis, and a CNN for image classification.
+                        <br />
+                        <em>Reinforcement Learning:</em> to play Pacman! - work in progress.
+                        <br />
+                        <em>Machine Learning:</em> including XOR (Python & C++) and MINST. CNN, RNN, LSTM, GRU, GAN and Transformers.
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">DevOps</h3>
+                      <h3 className="text-xl font-bold">&apos;Aerospace&apos; Engineering</h3>
                       <p className="text-muted-foreground">
-                        Familiar with cloud platforms like AWS and Azure. Experienced in setting up CI/CD pipelines and
-                        automating deployments.
+                        <em>Operations Research:</em> solved vehicle routing problems using Mixed-Integer Linear Programming.
+                        <br />
+                        <em>Computer vision:</em> for a drone&apos;s navigation system.
+                        <br />
+                        <em>Engineering:</em> hold BSc 3rd best in World and 1st in Europe, in Aerospace Engineering. Now pursing my MSc.
                       </p>
                     </div>
                   </li>
