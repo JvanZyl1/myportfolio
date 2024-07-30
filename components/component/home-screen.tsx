@@ -197,9 +197,11 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           src="/DroneWork.mp4"
                           width="550"
                           height="310"
-                          alt="Project 2"
+                          controls
                           className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                        />
+                        >
+                          <track kind="captions" />
+                        </video>
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
