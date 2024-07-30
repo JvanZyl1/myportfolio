@@ -40,7 +40,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe's Portfolio</span>
+          <span className="sr-only">John Doe&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex flex-col gap-4 sm:flex-row sm:gap-6">
           <Link href="#"
@@ -81,7 +81,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'd love to hear from you! Feel free to reach out with any questions or opportunities.
+                I&apos;d love to hear from you! Feel free to reach out with any questions or opportunities.
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
