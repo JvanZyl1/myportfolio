@@ -29,10 +29,10 @@ import { Badge } from "@/components/ui/badge"
 interface AcademicsScreenProps {
   onNavigateToHome: () => void;
   onNavigateToProject: () => void; // Add this line
-  onNavigatetoContact: () => void;
+  onNavigateToContact: () => void;
 }
 
-export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigatetoContact} : AcademicsScreenProps) {
+export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateToContact} : AcademicsScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -68,7 +68,7 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigatet
           <Link href="#"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
-          onClick={onNavigatetoContact}>
+          onClick={onNavigateToContact}>
             Contact
           </Link>
         </nav>
