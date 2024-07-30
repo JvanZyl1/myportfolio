@@ -422,28 +422,72 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
                 <div className="after:absolute after:inset-y-0 after:w-px after:bg-muted-foreground/20 relative pl-6 after:left-0 grid gap-10">
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
-                    <div className="font-medium">June 2016 - Graduated High School</div>
-                    <div className="text-muted-foreground">Earned my high school diploma with honors.</div>
+                    <div className="font-medium">June 2019 - Graduated High School</div>
+                    <div className="text-muted-foreground">
+                      Twyross House School, United Kingdom.
+                      <br />
+                      A-levels: A* Maths, A Economics, A Physics</div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
-                    <div className="font-medium">August 2016 - Started University</div>
+                    <div className="font-medium">September 2019 - Started University</div>
                     <div className="text-muted-foreground">
-                      Began my Bachelor&apos;s degree in Computer Science at the University of California, Berkeley.
+                      Began my Bachelor&apos;s degree in Aerospace Engineer at TU Delft, Netherlands
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
-                    <div className="font-medium">May 2020 - Graduated University</div>
+                    <div className="font-medium">September 2021 to February 2022 - Minor Abroad</div>
                     <div className="text-muted-foreground">
-                      Earned my Bachelor of Science in Computer Science, graduating with honors.
+                      Universidad Carlos III de Madrid.
+                      <br />
+                      Courses from MSc Space Engineering, with supplementary courses in Business and Spanish.
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
-                    <div className="font-medium">June 2020 - Started Career</div>
+                    <div className="font-medium">June 2022 - Achieved BSc</div>
                     <div className="text-muted-foreground">
-                      Began my career as a software engineer, working on various web development projects.
+                      Earned my Bachelor of Science.
+                      <br />
+                      Scoring 8.5/10 in my final year project.
+                      <br />
+                      Part-time positions at student teams:
+                      <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+                        <li> Delft Aerospace Rocket Engineering : Solid Propulsion Engineer</li>
+                        <li> Lunar Zebro : Mechanics Engineer </li>
+                    </div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
+                    <div className="font-medium">August 2022 to 2023 - Started Career: Forze Hydrogen Racing</div>
+                    <div className="text-muted-foreground">
+                      Full time Simulations and Control Engineer on the World's fastest Hydrogen race-car.
+                    </div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
+                    <div className="font-medium">September 2023 - Started MSc</div>
+                    <div className="text-muted-foreground">
+                      MSc Aerospace Engineering, Control and Simulation.
+                      <br />
+                      TU Delft, Netherlands.
+                    </div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
+                    <div className="font-medium">July to September 2024 - Controls Internship</div>
+                    <div className="text-muted-foreground">
+                      Instep internship program at Infosys
+                      <br />
+                      Bangalore, India.
+                    </div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
+                    <div className="font-medium">October 2024 to June 2025 - MSc Thesis</div>
+                    <div className="text-muted-foreground">
+                      In a topic of my interest.
                     </div>
                   </div>
                 </div>
