@@ -306,7 +306,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <CarouselNext />
               </Carousel>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center space-x-4">
               <Link
                 href="https://github.com/JvanZyl1"
                 target="_blank"
@@ -314,6 +314,14 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 className="Link"
               >
                 View More on GitHub
+              </Link>
+              <Link
+                href="https://nl.linkedin.com/in/jonathan-van-zyl-5104b5202"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Link"
+              >
+                Connect on LinkedIn
               </Link>
             </div>
           </div>
