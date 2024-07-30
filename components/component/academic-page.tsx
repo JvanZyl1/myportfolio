@@ -26,12 +26,12 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 
-interface HomeScreenProps {
-  onNavigateToProject: () => void;
+interface ProjectScreenProps {
   onNavigateToHome: () => void;
+  onNavigateToAcademics: () => void; // Add this line
 }
 
-export function AcademicPage({onNavigateToProject, onNavigateToHome} : HomeScreenProps) {
+export function AcademicPage({onNavigateToProject, onNavigateToHome} : ProjectScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
