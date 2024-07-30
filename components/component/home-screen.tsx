@@ -35,9 +35,10 @@ import { Button } from "@/components/ui/button"
 
 interface HomeScreenProps {
   onNavigateToProject: () => void;
+  onNavigateToAcademics: () => void;
 }
 
-export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
+export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -58,7 +59,10 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             About
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="#"
+          className="text-sm font-medium hover:underline underline-offset-4"
+          prefetch={false}
+          onClick = {onNavigateToAcademics}>
             Education
           </Link>
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -375,7 +379,8 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                               <br />
                               <em>Computer vision:</em> for a drone&apos;s navigation system.
                               <br />
-                              <em>Engineering:</em> hold BSc 3rd best in World and 1st in Europe, in Aerospace Engineering. Now pursuing my MSc.
+                              <em>Engineering:</em> hold a BSc at the 3rd best Aerospace Engineering University in World and 1st in Europe. Now pursuing my MSc at the 
+                              Aeropsace Engineering faculty of TU Delft on the Simulation and Controls track.
                           </p>
                       </li>
                   </ul>
@@ -383,6 +388,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
               <div className="col-span-1 flex flex-col items-center justify-center space-y-2">
                   <Badge className='bg-blue-500 text-white'>Control Systems</Badge>
                   <Badge className='bg-blue-500 text-white'>Hydrogen Fuel Cells</Badge>
+                  <Badge className='bg-blue-500 text-white'>Drones</Badge>
 
                   <Badge className='bg-red-500 text-white'>C++/C</Badge>
                   <Badge className='bg-red-500 text-white'>Python</Badge>
@@ -407,8 +413,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Education</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Academic Background</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I have a strong academic foundation that has prepared me for a successful career in software
-                  engineering.
+                  I have a strong academic foundation that has prepared me for a successful career.
                 </p>
               </div>
             </div>
@@ -463,8 +468,18 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 </div>
               </div>
             </div>
+            <div className="flex justify-center space-x-4">
+              <Link
+                href="#"
+                className="text-sm font-medium hover:underline underline-offset-4"
+                prefetch={false}
+                onClick = {onNavigateToAcademics}>
+                View My Academic Resume.
+              </Link>
+            </div>
           </div>
         </section>
+
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
@@ -487,7 +502,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             Privacy
