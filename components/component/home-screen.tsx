@@ -118,7 +118,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                         <img
-                          src="/placeholder.svg"
+                          src="/Images/QCANet_architecture.svg"
                           width="550"
                           height="310"
                           alt="Project 1"
