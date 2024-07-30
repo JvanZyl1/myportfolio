@@ -200,9 +200,8 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                         controls
                         className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
                       >
-                        <track kind="captions" src="/captions.vtt" label="English" srclang="en" default />
+                        <track kind="captions" src="/captions.vtt" label="English" srcLang="en" default />
                       </video>
-
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
