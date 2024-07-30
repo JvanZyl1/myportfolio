@@ -23,7 +23,8 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
-import Link from "next/link"
+import Link from "next/link";
+
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -337,8 +338,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
   )
 }
 
-function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
+const MountainIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
@@ -353,12 +353,10 @@ function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
     >
       <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
     </svg>
-  )
-}
+  );
 
 
-function XIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
+const XIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
@@ -374,5 +372,9 @@ function XIcon(props: React.SVGProps<SVGSVGElement>) {
       <path d="M18 6 6 18" />
       <path d="m6 6 12 12" />
     </svg>
-  )
-}
+  );
+
+export {
+  MountainIcon,
+  XIcon
+};
