@@ -24,7 +24,6 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link";
-import Image from "next/image";
 
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card"
@@ -36,9 +35,10 @@ import { Button } from "@/components/ui/button"
 interface HomeScreenProps {
   onNavigateToProject: () => void;
   onNavigateToAcademics: () => void;
+  onNavigateToContact: () => void;
 }
 
-export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeScreenProps) {
+export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNavigateToContact} : HomeScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -65,7 +65,11 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
           onClick = {onNavigateToAcademics}>
             Education
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="#"
+          className="text-sm font-medium hover:underline underline-offset-4"
+          prefetch={false}
+          onClick = {onNavigateToContact}>
+          >
             Contact
           </Link>
         </nav>
@@ -512,7 +516,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
-                    <div className="font-medium">Pursuing Masters of Science in Aerospace Engineering, Control and Simulation</div>
+                    <div className="font-medium">Pursuing Masters of Science in Aerospace Engineering <br /> Control and Simulation</div>
                     <div className="text-muted-foreground">Delft University of Technology</div>
                   </div>
                 </div>

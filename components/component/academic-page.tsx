@@ -26,12 +26,13 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 
-interface ProjectScreenProps {
+interface AcademicsScreenProps {
   onNavigateToHome: () => void;
   onNavigateToProject: () => void; // Add this line
+  onNavigatetoContact: () => void;
 }
 
-export function AcademicPage({onNavigateToProject, onNavigateToHome} : ProjectScreenProps) {
+export function AcademicPage({onNavigateToProject, onNavigateToHome} : AcademicsScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -64,7 +65,10 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome} : ProjectSc
           >
             Education
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="#"
+          className="text-sm font-medium hover:underline underline-offset-4"
+          prefetch={false}
+          onClick={onNavigatetoContact}>
             Contact
           </Link>
         </nav>

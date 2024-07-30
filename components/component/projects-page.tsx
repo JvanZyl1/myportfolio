@@ -30,9 +30,10 @@ import { Badge } from "@/components/ui/badge"
 interface ProjectScreenProps {
   onNavigateToHome: () => void;
   onNavigateToAcademics: () => void;
+  onNavigateToContact: () => void;
 }
 
-export function ProjectsPage({onNavigateToHome, onNavigateToAcademics} : ProjectScreenProps) {
+export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigateToContact} : ProjectScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -64,7 +65,11 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics} : Project
           onClick={onNavigateToAcademics}>
             Education
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="#"
+          className="text-sm font-medium hover:underline underline-offset-4"
+          prefetch={false}
+          onClick={onNavigateToContact}
+          >
             Contact
           </Link>
         </nav>
