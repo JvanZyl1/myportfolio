@@ -260,13 +260,12 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                       <img
-                        src="/Veatle.svg"
-                        srcSet="/Veatle.svg 1x, /Veatle@2x.svg 2x, /Veatle@3x.svg 3x"
-                        width="550"
-                        height="310"
-                        alt="Project 5"
-                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                      />
+                          src="/Forze_FuelCell.svg"
+                          width="550"
+                          height="310"
+                          alt="Project 5"
+                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                        />
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
