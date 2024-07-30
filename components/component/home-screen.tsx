@@ -463,7 +463,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
                     <div className="font-medium">August 2022 to 2023 - Started Career: Forze Hydrogen Racing</div>
                     <div className="text-muted-foreground">
-                      Full time Simulations and Control Engineer on the World's fastest Hydrogen race-car.
+                      Full time Simulations and Control Engineer on the World&apos;s fastest Hydrogen race-car.
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
