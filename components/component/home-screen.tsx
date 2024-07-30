@@ -174,13 +174,13 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="Link">
-                           supplier UI
-                          </Link> and
+                           supplier UI  
+                          </Link> and  
                           <Link href="https://cadence-buyer.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="Link">
-                          buyer UI
+                            buyer UI
                           </Link>.
                           </CardDescription>
                         </div>
@@ -252,6 +252,36 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           <Badge>Control Systems</Badge>
                           <Badge>Hydrogen Fuel Cells</Badge>
                           <Badge>C++</Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <Card>
+                      <CardHeader>
+                      <img
+                        src="/AIAAAtendanceCertificate.svg"
+                        srcSet="/AIAAAtendanceCertificate.svg 1x, /AIAAAtendanceCertificate@2x.svg 2x, /AIAAAtendanceCertificate@3x.svg 3x"
+                        width="550"
+                        height="310"
+                        alt="Project 4"
+                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                      />
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <CardTitle>BSc Thesis</CardTitle>
+                          <CardDescription>
+                          Design of a non-linear model predictive controller for a eVTOL under urban turbluence.
+                          <br />
+                          Presented at the 2022 AIAA Student Conference in Adelaide, Australia.
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          <Badge>Matlab/Simulink</Badge>
+                          <Badge>Control Systems</Badge>
+                          <Badge>Model Predictive Controller</Badge>
+                          <Badge>Aerospace Engineering</Badge>
                         </div>
                       </CardContent>
                     </Card>
