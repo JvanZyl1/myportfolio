@@ -195,7 +195,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                       <video
-                        src="/output.mp4"
+                        src="/DroneWorking.mp4"
                         width="550"
                         height="310"
                         controls
@@ -214,8 +214,43 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           </CardDescription>
                         </div>
                         <div className="flex flex-wrap gap-2">
-                          <Badge>Frontend</Badge>
-                          <Badge>Idea Brainstorming</Badge>
+                          <Badge>Computer Vision</Badge>
+                          <Badge>C</Badge>
+                          <Badge>Python</Badge>
+                          <Badge>Drones</Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <Card>
+                      <CardHeader>
+                      <img
+                        src="/Forze_FuelCell.svg"
+                        srcSet="/Forze_FuelCell.svg 1x, /Forze_FuelCell@2x.svg 2x, /Forze_FuelCell@3x.svg 3x"
+                        width="550"
+                        height="310"
+                        alt="Project 4"
+                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                      />
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <CardTitle>Forze Hydrogen Racing</CardTitle>
+                          <CardDescription>
+                          Working on a future Le Mann 24 hour hydrogen race car:
+                          <ul>
+                            <li> Anode hydrogen flow control system. </li>
+                            <li> Fuel cell software-in-the-loop simulator. </li>
+                            <li> Ejector test-bench </li>
+                          </ul>
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          <Badge>Matlab/Simulink</Badge>
+                          <Badge>Control Systems</Badge>
+                          <Badge>Hydrogen Fuel Cells</Badge>
+                          <Badge>C++</Badge>
                         </div>
                       </CardContent>
                     </Card>
