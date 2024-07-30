@@ -471,7 +471,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
             <div className="flex justify-center space-x-4">
               <Link
                 href="#"
-                className="text-sm font-medium hover:underline underline-offset-4"
+                className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
                 onClick = {onNavigateToAcademics}>
                 View My Academic Resume.
