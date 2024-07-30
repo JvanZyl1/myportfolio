@@ -42,7 +42,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe&apos;s Portfolio</span>
+          <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -73,11 +73,11 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                   John Doe
                 </h1>
-                <p className="text-muted-foreground md:text-xl">Software Engineer</p>
+                <p className="text-muted-foreground md:text-xl">Controls and AI Engineer</p>
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  I&apos;m a passionate software engineer with expertise in building scalable and efficient web applications.
+                  I&apos;m a passionate engineer with expertise in aerospace, controls and artificial intelligence.
                   My goal is to create innovative solutions that solve real-world problems.
                 </p>
                 <div className="space-x-4">
@@ -127,9 +127,14 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
-                          <CardTitle>Project 1</CardTitle>
+                          <CardTitle>3D CNN for semantic segmentation of mouse embroygeneous.</CardTitle>
                           <CardDescription>
-                            A web application that helps users manage their tasks and projects more efficiently.
+                          3D convolutional neural networks-based segmentation to acquire quantitative criteria of the nucleus during mouse embryogenesis
+                          <Link href="https://jvanzyl1.github.io/3D-nuclei-segmentation-reproduction/README.html"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          Read Article!
+                          </Link>
                           </CardDescription>
                         </div>
                         <div className="flex flex-wrap gap-2">
