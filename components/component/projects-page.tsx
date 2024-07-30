@@ -27,7 +27,11 @@ import Link from "next/link"
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
-export function ProjectsPage({onNavigateToHome} : {onNavigateToHome() => void}) {
+interface ProjectScreenProps {
+  onNavigateToHome: () => void;
+}
+
+export function ProjectsPage({onNavigateToHome} : ProjectScreenProps) {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
