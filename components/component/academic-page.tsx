@@ -28,7 +28,7 @@ import { Badge } from "@/components/ui/badge"
 
 interface ProjectScreenProps {
   onNavigateToHome: () => void;
-  onNavigateToAcademics: () => void; // Add this line
+  onNavigateToProject: () => void; // Add this line
 }
 
 export function AcademicPage({onNavigateToProject, onNavigateToHome} : ProjectScreenProps) {
