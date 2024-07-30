@@ -130,18 +130,19 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           <CardTitle>3D CNN for semantic segmentation of mouse embroygeneous.</CardTitle>
                           <CardDescription>
                           3D convolutional neural networks-based segmentation to acquire quantitative criteria of the nucleus during mouse embryogenesis
+                          <br />
                           <Link href="https://jvanzyl1.github.io/3D-nuclei-segmentation-reproduction/README.html"
                           target="_blank"
                           rel="noopener noreferrer">
-                          Read Article!
+                          Read the Article by clicking here!
                           </Link>
                           </CardDescription>
                         </div>
                         <div className="flex flex-wrap gap-2">
-                          <Badge>React</Badge>
-                          <Badge>TypeScript</Badge>
-                          <Badge>Node.js</Badge>
-                          <Badge>MongoDB</Badge>
+                          <Badge>Artifical Intelligence</Badge>
+                          <Badge>Python</Badge>
+                          <Badge>Pytorch</Badge>
+                          <Badge>OpenCV</Badge>
                         </div>
                       </CardContent>
                     </Card>
