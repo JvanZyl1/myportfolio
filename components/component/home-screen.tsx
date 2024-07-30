@@ -260,8 +260,8 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                       <img
-                        src="AIAAAttendanceCertificate.svg"
-                        srcSet="/AIAAAttendanceCertificate.svg 1x, /AIAAAttendanceCertificate@2x.svg 2x, /AIAAAttendanceCertificate@3x.svg 3x"
+                        src="Veatle.svg"
+                        srcSet="/Veatle.svg 1x, /Veatle@2x.svg 2x, /Veatle@3x.svg 3x"
                         width="550"
                         height="310"
                         alt="Project 4"
