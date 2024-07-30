@@ -190,6 +190,33 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                       </CardContent>
                     </Card>
                   </CarouselItem>
+                  <CarouselItem>
+                    <Card>
+                      <CardHeader>
+                        <video
+                          src="/DroneWork.mp4"
+                          width="550"
+                          height="310"
+                          alt="Project 2"
+                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                        />
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <CardTitle>Computer vision and navigation module for drone</CardTitle>
+                          <CardDescription>
+                          Worked in the paparrazi environment to design a computer vision system for drone navigation.
+                          <br />
+                          Tested in the TU Delft MAV Lab.
+                          </CardDescription>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          <Badge>Frontend</Badge>
+                          <Badge>Idea Brainstorming</Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
