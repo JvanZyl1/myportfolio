@@ -498,17 +498,22 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
                     <div className="font-medium">High School Diploma</div>
-                    <div className="text-muted-foreground">Graduated with Honors</div>
+                    <div className="text-muted-foreground">A-levels: A* Maths, A Physics, A Economics</div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
-                    <div className="font-medium">Bachelor of Science in Computer Science</div>
-                    <div className="text-muted-foreground">University of California, Berkeley</div>
+                    <div className="font-medium">Bachelor of Science in Aerospace Engineering</div>
+                    <div className="text-muted-foreground">Delft University of Technology</div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
-                    <div className="font-medium">Graduated with Honors</div>
-                    <div className="text-muted-foreground">Magna Cum Laude</div>
+                    <div className="font-medium">Minor in Space Engineering</div>
+                    <div className="text-muted-foreground">Universidad Carlos III de Madrid</div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
+                    <div className="font-medium">Pursuing Masters of Science in Aerospace Engineering, Control and Simulation</div>
+                    <div className="text-muted-foreground">Delft University of Technology</div>
                   </div>
                 </div>
               </div>
