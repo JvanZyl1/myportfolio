@@ -340,57 +340,53 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <ul className="grid gap-6">
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Controls Engineering</h3>
-                      <p className="text-muted-foreground">
-                        Proficient in Matlab/Simulink, Python, C and C++. Experienced in designing and implementing control systems
-                        both PID and MPC, for a hydrogen race car and autonomous vehicle in real-life. Also, VOR, pitch-rate and GNC satellite using PID, and a
-                        urban air mobility vehicle using MPC; in simulation for University projects. Developed FSMs, tuned controllers in real-life and implemented
-                        evolutionary algorithms (GA and PSO) to optimize controllers.
-                        <br />
-                        <em>Intelligent control systems:</em> Data-driven modelling (LNN, GPR) and Iterative Learning Control.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Artificial Intelligence</h3>
-                      <p className="text-muted-foreground">
-                        Proficient in Python, Pytorch and OpenCV.
-                        <br />
-                        <em>Data driven modelling:</em> LNN for double pendulum simulation & NARX for system identification of a hydrogen flow simulation.
-                        <br />
-                        <em>Deep Learning:</em> 3D CNN for semantic segmentation of mouse embryogenesis, and a CNN for image classification.
-                        <br />
-                        <em>Reinforcement Learning:</em> to play Pacman! - work in progress.
-                        <br />
-                        <em>Machine Learning:</em> including XOR (Python & C++) and MINST. CNN, RNN, LSTM, GRU, GAN and Transformers.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">&apos;Aerospace&apos; Engineering</h3>
-                      <p className="text-muted-foreground">
-                        <em>Operations Research:</em> solved vehicle routing problems using Mixed-Integer Linear Programming.
-                        <br />
-                        <em>Computer vision:</em> for a drone&apos;s navigation system.
-                        <br />
-                        <em>Engineering:</em> hold BSc 3rd best in World and 1st in Europe, in Aerospace Engineering. Now pursing my MSc.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+            <div className="mx-auto max-w-5xl grid gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+              <div className="col-span-2">
+                  <ul className="space-y-4">
+                      <li>
+                          <h3 className="text-xl font-bold">Controls Engineering</h3>
+                          <p className="text-muted-foreground">
+                              Proficient in Matlab/Simulink, Python, C and C++. Experienced in designing and implementing control systems
+                              both PID and MPC, for a hydrogen race car and autonomous vehicle in real-life. Also, VOR, pitch-rate and GNC satellite using PID, and an
+                              urban air mobility vehicle using MPC; in simulation for University projects. Developed FSMs, tuned controllers in real-life and implemented
+                              evolutionary algorithms (GA and PSO) to optimize controllers.
+                              <br />
+                              <em>Intelligent control systems:</em> Data-driven modelling (LNN, GPR) and Iterative Learning Control.
+                          </p>
+                      </li>
+                      <li>
+                          <h3 className="text-xl font-bold">Artificial Intelligence</h3>
+                          <p className="text-muted-foreground">
+                              Proficient in Python, Pytorch and OpenCV.
+                              <br />
+                              <em>Data driven modelling:</em> LNN for double pendulum simulation & NARX for system identification of a hydrogen flow simulation.
+                              <br />
+                              <em>Deep Learning:</em> 3D CNN for semantic segmentation of mouse embryogenesis, and a CNN for image classification.
+                              <br />
+                              <em>Reinforcement Learning:</em> to play Pacman! - work in progress.
+                              <br />
+                              <em>Machine Learning:</em> including XOR (Python & C++) and MINST. CNN, RNN, LSTM, GRU, GAN and Transformers.
+                          </p>
+                      </li>
+                      <li>
+                          <h3 className="text-xl font-bold">&apos;Aerospace&apos; Engineering</h3>
+                          <p className="text-muted-foreground">
+                              <em>Operations Research:</em> solved vehicle routing problems using Mixed-Integer Linear Programming.
+                              <br />
+                              <em>Computer vision:</em> for a drone&apos;s navigation system.
+                              <br />
+                              <em>Engineering:</em> hold BSc 3rd best in World and 1st in Europe, in Aerospace Engineering. Now pursuing my MSc.
+                          </p>
+                      </li>
+                  </ul>
               </div>
-              <Badge>Matlab/Simulink</Badge>
-              <Badge>Control Systems</Badge>
-              <Badge>Hydrogen Fuel Cells</Badge>
-                          <Badge>C++</Badge>
-            </div>
+              <div className="col-span-1 flex flex-col items-center justify-center space-y-2">
+                  <Badge>Matlab/Simulink</Badge>
+                  <Badge>Control Systems</Badge>
+                  <Badge>Hydrogen Fuel Cells</Badge>
+                  <Badge>C++</Badge>
+              </div>
+          </div>
           </div>
         </section>
         <section id="education" className="w-full py-12 md:py-24 lg:py-32">
