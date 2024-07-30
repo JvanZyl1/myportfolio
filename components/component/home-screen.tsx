@@ -381,20 +381,20 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                   </ul>
               </div>
               <div className="col-span-1 flex flex-col items-center justify-center space-y-2">
-                  <Badge>Control Systems</Badge>
-                  <Badge>Hydrogen Fuel Cells</Badge>
+                  <Badge className='bg-blue-500 text-white'>Control Systems</Badge>
+                  <Badge className='bg-blue-500 text-white'>Hydrogen Fuel Cells</Badge>
 
-                  <Badge>C++/C</Badge>
-                  <Badge>Python</Badge>
-                  <Badge>Matlab/Simulink</Badge>
+                  <Badge className='bg-red-500 text-white'>C++/C</Badge>
+                  <Badge className='bg-red-500 text-white'>Python</Badge>
+                  <Badge className='bg-red-500 text-white'>Matlab/Simulink</Badge>
 
-                  <Badge>Operations Research</Badge>
-                  <Badge>Artificial Intelligence</Badge>
-                  <Badge>Reinforcement Learning</Badge>
-                  <Badge>Evolutionary Algorithms</Badge>
-                  <Badge>Swarming Intelligence</Badge>
-                  <Badge>Intelligent Controls</Badge>
-                  <Badge>Front End</Badge>
+                  <Badge className='bg-orange-500 text-white'>Operations Research</Badge>
+                  <Badge className='bg-orange-500 text-white'>Artificial Intelligence</Badge>
+                  <Badge className='bg-orange-500 text-white'>Reinforcement Learning</Badge>
+                  <Badge className='bg-orange-500 text-white'>Evolutionary Algorithms</Badge>
+                  <Badge className='bg-orange-500 text-white'>Swarming Intelligence</Badge>
+                  <Badge className='bg-orange-500 text-white'>Intelligent Controls</Badge>
+                  <Badge className='bg-orange-500 text-white'>Front End</Badge>
 
               </div>
           </div>
