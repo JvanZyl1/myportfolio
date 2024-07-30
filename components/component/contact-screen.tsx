@@ -40,7 +40,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe&apos;s Portfolio</span>
+          <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex flex-col gap-4 sm:flex-row sm:gap-6">
           <Link href="#"
@@ -100,7 +100,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
                 <h3 className="text-2xl font-bold">Email</h3>
                 <p className="text-muted-foreground mx-2">
                   <a href="#" className="text-primary hover:underline">
-                    john@example.com
+                    jonathan.vanzyl2001@hotmail.com
                   </a>
                 </p>
               </div>
@@ -108,10 +108,20 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
                 <div className="space-y-1">
                   <h3 className="text-2xl font-bold">Social Media</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Link href="#" className="text-primary hover:underline" prefetch={false}>
+                    <Link
+                      href="https://nl.linkedin.com/in/jonathan-van-zyl-5104b5202"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    >
                       LinkedIn
                     </Link>
-                    <Link href="#" className="text-primary hover:underline" prefetch={false}>
+                    <Link
+                      href="https://github.com/JvanZyl1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    >
                       GitHub
                     </Link>
                   </div>
@@ -122,7 +132,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
         <nav className="sm:ml-auto flex flex-col gap-2 sm:flex-row sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             Privacy

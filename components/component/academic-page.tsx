@@ -82,6 +82,7 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                 </p>
               </div>
             </div>
+            
             <div className="flex flex-col gap-8">
               <div className="space-y-2">
                 <div className="space-y-1">
@@ -96,6 +97,7 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                   <Badge>2016-2020</Badge>
                 </div>
               </div>
+              
               <div className="space-y-2">
                 <div className="space-y-1">
                   <h3 className="text-2xl font-bold">Master&apos;s Degree</h3>
@@ -127,7 +129,7 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
         <nav className="sm:ml-auto flex flex-col gap-2 sm:flex-row sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             Privacy

@@ -39,7 +39,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe&apos;s Portfolio</span>
+          <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#"
@@ -199,7 +199,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             Privacy
