@@ -260,7 +260,8 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                       <img
-                          src="/Forze_FuelCell.svg"
+                          src="/Veatle.svg"
+                          srcSet="/Veatle.svg 1x, /Veatle@2x.svg 2x, /Veatle@3x.svg 3x"
                           width="550"
                           height="310"
                           alt="Project 5"
