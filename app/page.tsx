@@ -13,12 +13,12 @@ export default function Page() {
 
   return (
     <>
-      {currentScreen === 'project' && (
+      {currentScreen === 'home' && (
         <HomeScreen
           onNavigateToProject={() => handleNavigate('project')}
         />
       )}
-      {currentScreen === 'home' && (
+      {currentScreen === 'project' && (
         <ProjectsPage 
           onNavigateToHome={() => handleNavigate('home')} 
         />
