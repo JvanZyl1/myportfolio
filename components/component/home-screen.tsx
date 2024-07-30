@@ -165,9 +165,9 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           <CardTitle>Cadence</CardTitle>
                           <CardDescription>
                           A take on “To-Good-To-Go” meets “Uber Eats” for preventing food spoilage in bulk selling firms.
-                          </br>
+                          <br />
                           Entry for BizHack 2024 Hackathon, won "Most Collaborative Team" award.
-                          </br>
+                          <br />
                           Learn front-end development in 4 hours to make these mockup UIs: 
                           <Link href="https://cadence-tester-gxpb9yx8x-jvanzyl1s-projects.vercel.app/"
                           target="_blank"
@@ -179,7 +179,6 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           rel="noopener noreferrer">
                           buyer UI
                           </Link>.
-
                           </CardDescription>
                         </div>
                         <div className="flex flex-wrap gap-2">
