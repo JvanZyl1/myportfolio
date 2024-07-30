@@ -171,12 +171,14 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           Learn front-end development in 4 hours to make these mockup UIs: 
                           <Link href="https://cadence-tester-gxpb9yx8x-jvanzyl1s-projects.vercel.app/"
                           target="_blank"
-                          rel="noopener noreferrer">
-                          supplier UI
+                          rel="noopener noreferrer"
+                          className="Link">
+                           supplier UI
                           </Link> and
                           <Link href="https://cadence-buyer.vercel.app/"
                           target="_blank"
-                          rel="noopener noreferrer">
+                          rel="noopener noreferrer"
+                          className="Link">
                           buyer UI
                           </Link>.
                           </CardDescription>
