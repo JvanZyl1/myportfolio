@@ -37,7 +37,7 @@ export function ProjectsPage({onNavigateToHome} : ProjectScreenProps) {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe's Portfolio</span>
+          <span className="sr-only">John Doe&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#"
@@ -73,7 +73,7 @@ export function ProjectsPage({onNavigateToHome} : ProjectScreenProps) {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Featured Projects</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Work</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Check out some of the projects I've worked on and the technologies I've used.
+                  Check out some of the projects I&apos;ve worked on and the technologies I&apos;ve used.
                 </p>
               </div>
             </div>
