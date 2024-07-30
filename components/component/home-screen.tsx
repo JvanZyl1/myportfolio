@@ -42,7 +42,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe's Portfolio</span>
+          <span className="sr-only">John Doe&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -77,7 +77,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  I'm a passionate software engineer with expertise in building scalable and efficient web applications.
+                  I&apos;m a passionate software engineer with expertise in building scalable and efficient web applications.
                   My goal is to create innovative solutions that solve real-world problems.
                 </p>
                 <div className="space-x-4">
@@ -107,7 +107,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Featured Projects</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Work</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Check out some of the projects I've worked on and the technologies I've used.
+                  Check out some of the projects I&apos;ve worked on and the technologies I&apos;ve used.
                 </p>
               </div>
             </div>
@@ -192,8 +192,8 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Skills and Experience</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I'm a skilled software engineer with a passion for building innovative and user-friendly web
-                  applications. I have experience working with a variety of technologies and frameworks, and I'm always
+                  I&apos;m a skilled software engineer with a passion for building innovative and user-friendly web
+                  applications. I have experience working with a variety of technologies and frameworks, and I&apos;m always
                   eager to learn new things.
                 </p>
               </div>
@@ -263,7 +263,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
                     <div className="font-medium">August 2016 - Started University</div>
                     <div className="text-muted-foreground">
-                      Began my Bachelor's degree in Computer Science at the University of California, Berkeley.
+                      Began my Bachelor&apos;s degree in Computer Science at the University of California, Berkeley.
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
@@ -309,7 +309,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'd love to hear from you! Feel free to reach out with any questions or opportunities.
+                I&apos;d love to hear from you! Feel free to reach out with any questions or opportunities.
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
