@@ -386,13 +386,10 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                   </li>
                 </ul>
               </div>
-              <img
-                src="/placeholder.svg"
-                width="550"
-                height="310"
-                alt="About"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              />
+              <Badge>Matlab/Simulink</Badge>
+              <Badge>Control Systems</Badge>
+              <Badge>Hydrogen Fuel Cells</Badge>
+                          <Badge>C++</Badge>
             </div>
           </div>
         </section>
