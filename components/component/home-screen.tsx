@@ -194,7 +194,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                     <Card>
                       <CardHeader>
                       <video
-                        src="/DroneWork.mp4"
+                        src="/output.mp4"
                         width="550"
                         height="310"
                         controls
