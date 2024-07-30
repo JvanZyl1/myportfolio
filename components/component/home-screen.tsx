@@ -152,13 +152,14 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                   <CarouselItem>
                     <Card>
                       <CardHeader>
-                        <img
-                          src="/SupplierBizHacks.svg"
-                          width="550"
-                          height="310"
-                          alt="Project 2"
-                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                        />
+                      <img
+                        src="/SupplierBizHacks.svg"
+                        srcSet="/SupplierBizHacks.svg 1x, /SupplierBizHacks@2x.svg 2x, /SupplierBizHacks@3x.svg 3x"
+                        width="550"
+                        height="310"
+                        alt="Project 2"
+                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                      />
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
