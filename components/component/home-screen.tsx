@@ -56,9 +56,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
           onClick = {onNavigateToProject}>
             Projects
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            About
-          </Link>
           <Link href="#"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}

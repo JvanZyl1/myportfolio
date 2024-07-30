@@ -56,9 +56,6 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
           >
             Projects
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            About
-          </Link>
           <Link href="#"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
