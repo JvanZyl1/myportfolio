@@ -69,7 +69,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
           onClick = {onNavigateToContact}>
-          >
             Contact
           </Link>
         </nav>
