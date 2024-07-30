@@ -218,6 +218,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           <Badge>C</Badge>
                           <Badge>Python</Badge>
                           <Badge>Drones</Badge>
+                          <Badge>OpenCV</Badge>
                         </div>
                       </CardContent>
                     </Card>
@@ -239,7 +240,7 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                           <CardTitle>Forze Hydrogen Racing</CardTitle>
                           <CardDescription>
                           Working on a future Le Mann 24 hour hydrogen race car:
-                          <ul>
+                          <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                             <li> Anode hydrogen flow control system. </li>
                             <li> Fuel cell software-in-the-loop simulator. </li>
                             <li> Ejector test-bench </li>
