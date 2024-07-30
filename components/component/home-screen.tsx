@@ -381,10 +381,21 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                   </ul>
               </div>
               <div className="col-span-1 flex flex-col items-center justify-center space-y-2">
-                  <Badge>Matlab/Simulink</Badge>
                   <Badge>Control Systems</Badge>
                   <Badge>Hydrogen Fuel Cells</Badge>
-                  <Badge>C++</Badge>
+
+                  <Badge>C++/C</Badge>
+                  <Badge>Python</Badge>
+                  <Badge>Matlab/Simulink</Badge>
+
+                  <Badge>Operations Research</Badge>
+                  <Badge>Artificial Intelligence</Badge>
+                  <Badge>Reinforcement Learning</Badge>
+                  <Badge>Evolutionary Algorithms</Badge>
+                  <Badge>Swarming Intelligence</Badge>
+                  <Badge>Intelligent Controls</Badge>
+                  <Badge>Front End</Badge>
+
               </div>
           </div>
           </div>
