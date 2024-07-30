@@ -286,6 +286,25 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                       </CardContent>
                     </Card>
                   </CarouselItem>
+                  <CarouselItem>
+                    <Card className="hover:shadow-lg transition-shadow duration-300 cursor-pointer bg-white border rounded-lg">
+                      <CardContent className="p-6 flex flex-col items-center justify-center text-center">
+                        <h2 className="text-2xl font-bold text-primary mb-3">Explore All Projects!</h2>
+                        <p className="text-gray-600 mb-6">
+                          Dive into the details of all my projects and see the technologies I&apos;ve worked with.
+                        </p>
+                        <Link href="#" // Adjust the link to point to your specific project.
+                              className="flex items-center justify-center rounded-full bg-primary p-3 text-white hover:bg-primary-dark transition duration-300"
+                              prefetch={false}
+                              onClick = {onNavigateToProject}>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                          <span className="sr-only">Go to project</span>
+                        </Link>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
