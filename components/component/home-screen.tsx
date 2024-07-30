@@ -193,15 +193,16 @@ export function HomeScreen({onNavigateToProject} : HomeScreenProps) {
                   <CarouselItem>
                     <Card>
                       <CardHeader>
-                        <video
-                          src="/DroneWork.mp4"
-                          width="550"
-                          height="310"
-                          controls
-                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                        >
-                          <track kind="captions" />
-                        </video>
+                      <video
+                        src="/DroneWork.mp4"
+                        width="550"
+                        height="310"
+                        controls
+                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                      >
+                        <track kind="captions" src="/captions.vtt" label="English" srclang="en" default />
+                      </video>
+
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
