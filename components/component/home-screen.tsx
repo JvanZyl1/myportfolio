@@ -456,6 +456,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics} : HomeSc
                       <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                         <li> Delft Aerospace Rocket Engineering : Solid Propulsion Engineer</li>
                         <li> Lunar Zebro : Mechanics Engineer </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
