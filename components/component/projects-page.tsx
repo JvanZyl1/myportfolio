@@ -132,6 +132,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                     <Badge>Matlab/Simulink</Badge>
                     <Badge>FSM</Badge>
                     <Badge>Git</Badge>
+                    <Badge>C++</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -263,14 +264,29 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Ejector Testbench leader </CardTitle>
+                    <CardTitle>Multi-Objective Optimisation of Vehicle Routing Problem</CardTitle>
                     <CardDescription>
                       A data visualization dashboard that helps users analyze and interpret complex data sets.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Matlab/Simulink</Badge>
-                    <Badge>C++</Badge>
+                    <Badge>Python</Badge>
+                    <Badge>Operations Research</Badge>
+                    <Badge>Git</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="space-y-2">
+                  <div className="space-y-1">
+                    <CardTitle>Various AI projects.</CardTitle>
+                    <CardDescription>
+                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Python</Badge>
+                    <Badge>Artificial Intelligence</Badge>
                   </div>
                 </CardContent>
               </Card>
