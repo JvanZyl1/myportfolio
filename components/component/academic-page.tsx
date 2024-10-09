@@ -106,7 +106,7 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                 <div className="flex flex-wrap gap-2">
                   <Badge>TU Delft</Badge>
                   <Badge>September 2023 - August 2025</Badge>
-                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31379"
+                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31378"
                     target="_blank"
                     rel="noopener noreferrer">
                     <Badge variant="custom" className="bg-blue-500 text-white">Course Description Link</Badge>
@@ -184,6 +184,21 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                 <div className="flex flex-wrap gap-2">
                   <Badge>High School</Badge>
                   <Badge>Coursera</Badge>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/7JK9V4H8L88V"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Improving DNN Credential</Badge>
+                  </a>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/NQFNAQGUT6L9"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Structuring ML Credential</Badge>
+                  </a>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/9SRDL5MWU979"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Neural Networks Credential</Badge>
+                  </a>
                 </div>
               </div>
             </div>
