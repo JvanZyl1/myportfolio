@@ -99,15 +99,17 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                       Deep Learning, 
                       Intermediate Economics,
                       Research Methodologies
-                    </em>
+                    </em> <br />
                     Partially followed courses of <em> Deep Reinforcement Learning and Evolutionary Algorithms</em>.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <Badge>TU Delft</Badge>
                   <Badge>September 2023 - August 2025</Badge>
-                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31379">
-                    <Badge>Course Description</Badge>
+                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31379"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Course Description Link</Badge>
                   </a>
                 </div>
               </div>
@@ -122,16 +124,17 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                     QS World University Rankings. </a><br />
                     Graduation project: <em>
                       Design and implementation of a control system for a eVTOL UAV, 
-                      under the influence of wind gusts.
-                    </em>
-                    Presented at AIAA Student Conference 2022.
+                      under the influence of wind gusts. Presented at AIAA Student Conference 2022.
+                    </em> <br />
+                    Participated in the <em> Delft Aerospace Rocket Engineering</em> and
+                    <em> Lunar Zebro </em> student teams.                    
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <Badge>TU Delft</Badge>
                   <Badge>September 2019- June 2022</Badge>
                   <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31364">
-                    <Badge>Course Description</Badge>
+                    <Badge>Course Description Link</Badge>
                   </a>
                 </div>
               </div>
