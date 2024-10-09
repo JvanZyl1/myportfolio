@@ -120,7 +120,8 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                   <h3 className="text-2xl font-bold">Bachelor&apos;s Degree</h3>
                   <p className="text-muted-foreground">
                     BSc Aerospace Engineering at TU Delft. <br />
-                    3rd best Aerospace Engineering faculty in the world according to <a href = "https://www.topuniversities.com/university-subject-rankings/mechanical-aeronautical-manufacturing-engineering">
+                    3rd best Aerospace Engineering faculty in the world according to <a href = "https://www.topuniversities.com/university-subject-rankings/mechanical-aeronautical-manufacturing-engineering"
+                    className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
                     QS World University Rankings. </a><br />
                     Graduation project: <em>
                       Design and implementation of a control system for a eVTOL UAV, 
@@ -133,36 +134,56 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
                 <div className="flex flex-wrap gap-2">
                   <Badge>TU Delft</Badge>
                   <Badge>September 2019- June 2022</Badge>
-                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31364">
-                    <Badge>Course Description Link</Badge>
+                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31364"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Course Description Link</Badge>
                   </a>
                 </div>
               </div>
               
               <div className="space-y-2">
                 <div className="space-y-1">
-                  <h3 className="text-2xl font-bold">Master&apos;s Degree</h3>
+                  <h3 className="text-2xl font-bold">Minor Abroad</h3>
                   <p className="text-muted-foreground">
-                    Earned a Master of Science in Data Science from ABC University.
+                    Focus on taking courses from MSc Space Engineering, while immersing in Spanish culture. <br />
+                    Courses: <em>
+                      Antennas and Radio Propogation, 
+                      Attitude Dynamics, Guidance, Navigation and Control, 
+                      Earth Observation Data Processing, 
+                      Introduction to Business Management, 
+                      Space Propulsion, 
+                      Space Robotics and Automation, 
+                      Space Science
+                    </em> and <em> Spanish</em>.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <Badge>Data Science</Badge>
-                  <Badge>ABC University</Badge>
-                  <Badge>2020-2022</Badge>
+                  <Badge>Universidad Carlos III de Madrid</Badge>
+                  <Badge>September 2021 - January 2022</Badge>
+                  <a href="https://www.uc3m.es/master/space-engineering#curriculum"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Badge variant="custom" className="bg-blue-500 text-white">Course Description Link</Badge>
+                  </a>
                 </div>
               </div>
               <div className="space-y-2">
                 <div className="space-y-1">
-                  <h3 className="text-2xl font-bold">Certification</h3>
+                  <h3 className="text-2xl font-bold">Additional Education</h3>
                   <p className="text-muted-foreground">
-                    Earned a Professional Certificate in Full-Stack Web Development from Coursera.
+                  Twycross House School, United Kingdom; A-levels: A* Mathematics, A Physics, A Economics <br />
+                    Courses in deep learning by DeepLearning.AI: <em> 
+                      Impoving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, 
+                      Structuring Machine Learning Projects, 
+                      Neural Networks and Deep Learning.
+                    </em>. <br />
+                    Learning on the job.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <Badge>Web Development</Badge>
+                  <Badge>High School</Badge>
                   <Badge>Coursera</Badge>
-                  <Badge>2022</Badge>
                 </div>
               </div>
             </div>
@@ -171,12 +192,6 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
-        <nav className="sm:ml-auto flex flex-col gap-2 sm:flex-row sm:gap-6">
-          <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-            Privacy
-          </Link>
-          <Link href="#" prefetch={false} />
-        </nav>
       </footer>
     </div>
   )
