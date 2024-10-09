@@ -27,6 +27,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { JvZIcon } from "@/components/ui/icons"
 
 interface ContactScreenProps {
   onNavigateToHome: () => void;
@@ -39,7 +40,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <JvZIcon className="h-6 w-6" />
           <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex flex-col gap-4 sm:flex-row sm:gap-6">
@@ -143,44 +144,3 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
     </div>
   )
 }
-
-const MountainIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-  </svg>
-);
-
-
-const XIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M18 6 6 18" />
-    <path d="m6 6 12 12" />
-  </svg>
-);
-
-export {
-MountainIcon,
-XIcon
-};
