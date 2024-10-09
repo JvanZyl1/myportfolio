@@ -85,17 +85,54 @@ export function AcademicPage({onNavigateToProject, onNavigateToHome, onNavigateT
             </div>
             
             <div className="flex flex-col gap-8">
+            <div className="space-y-2">
+                <div className="space-y-1">
+                  <h3 className="text-2xl font-bold">Master&apos;s Degree</h3>
+                  <p className="text-muted-foreground">
+                    Writing MSc Aerospace Engineering at TU Delft, Netherlands <br />
+                    Specialising in control and simulation, with a focus on autonomous systems. <br />
+                    Graduating in August 2025. <br />
+                    Electives: <em> Object-Orientated Programming in C++, 
+                      Intelligent Control System, 
+                      Bio-Inspired Intelligence and Learning, 
+                      Autonomous Micro-Air Vehicles,
+                      Deep Learning, 
+                      Intermediate Economics,
+                      Research Methodologies
+                    </em>
+                    Partially followed courses of <em> Deep Reinforcement Learning and Evolutionary Algorithms</em>.
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>TU Delft</Badge>
+                  <Badge>September 2023 - August 2025</Badge>
+                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31379">
+                    <Badge>Course Description</Badge>
+                  </a>
+                </div>
+              </div>
+
+
               <div className="space-y-2">
                 <div className="space-y-1">
                   <h3 className="text-2xl font-bold">Bachelor&apos;s Degree</h3>
                   <p className="text-muted-foreground">
-                    Earned a Bachelor of Science in Computer Science from XYZ University.
+                    BSc Aerospace Engineering at TU Delft. <br />
+                    3rd best Aerospace Engineering faculty in the world according to <a href = "https://www.topuniversities.com/university-subject-rankings/mechanical-aeronautical-manufacturing-engineering">
+                    QS World University Rankings. </a><br />
+                    Graduation project: <em>
+                      Design and implementation of a control system for a eVTOL UAV, 
+                      under the influence of wind gusts.
+                    </em>
+                    Presented at AIAA Student Conference 2022.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <Badge>Computer Science</Badge>
-                  <Badge>XYZ University</Badge>
-                  <Badge>2016-2020</Badge>
+                  <Badge>TU Delft</Badge>
+                  <Badge>September 2019- June 2022</Badge>
+                  <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=31364">
+                    <Badge>Course Description</Badge>
+                  </a>
                 </div>
               </div>
               
