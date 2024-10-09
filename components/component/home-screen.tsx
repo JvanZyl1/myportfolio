@@ -31,6 +31,7 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { JvZIcon } from '@/components/ui/icons'
 
 interface HomeScreenProps {
   onNavigateToProject: () => void;
@@ -43,7 +44,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <JvZIcon className="h-6 w-6" />
           <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
