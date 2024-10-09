@@ -232,7 +232,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                       <CardHeader>
                       <img
                         src="/Forze_FuelCell.png"
-                        srcSet="/Forze_FuelCell.svg 1x, /Forze_FuelCell@2x.svg 2x, /Forze_FuelCell@3x.svg 3x"
                         width="550"
                         height="310"
                         alt="Project 4"
