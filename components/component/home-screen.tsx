@@ -125,7 +125,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                     <Card>
                       <CardHeader>
                         <img
-                          src="/QCANet_architecture.svg"
+                          src="/QCANet_architecture.png"
                           width="550"
                           height="310"
                           alt="Project 1"
