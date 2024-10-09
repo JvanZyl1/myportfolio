@@ -367,7 +367,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                               <br />
                               <em>Deep Learning:</em> 3D CNN for semantic segmentation of mouse embryogenesis, and a CNN for image classification.
                               <br />
-                              <em>Reinforcement Learning:</em> to play Pacman! - work in progress.
+                              <em>Reinforcement Learning:</em> transfer learning to play MsPacman from Pacman.
                               <br />
                               <em>Machine Learning:</em> including XOR (Python & C++) and MINST. CNN, RNN, LSTM, GRU, GAN and Transformers.
                           </p>

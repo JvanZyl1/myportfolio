@@ -97,16 +97,15 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Project 1</CardTitle>
+                    <CardTitle>Autonomous Driving System</CardTitle>
                     <CardDescription>
                       A web application that helps users manage their tasks and projects more efficiently.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>React</Badge>
-                    <Badge>TypeScript</Badge>
-                    <Badge>Node.js</Badge>
-                    <Badge>MongoDB</Badge>
+                    <Badge>Evolutionary Algorithms</Badge>
+                    <Badge>Model Predictive Control</Badge>
+                    <Badge>Python</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -122,17 +121,17 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Project 2</CardTitle>
+                    <CardTitle>H2 Anode Control System</CardTitle>
                     <CardDescription>
                       A mobile-friendly e-commerce platform that allows customers to browse and purchase products
                       online.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Next.js</Badge>
-                    <Badge>Tailwind CSS</Badge>
-                    <Badge>Stripe</Badge>
-                    <Badge>Firebase</Badge>
+                    <Badge>Control Systems</Badge>
+                    <Badge>Matlab/Simulink</Badge>
+                    <Badge>FSM</Badge>
+                    <Badge>Git</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -148,16 +147,17 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Project 3</CardTitle>
+                    <CardTitle>3D Semantic Segmentation of Mouse Nuclei</CardTitle>
                     <CardDescription>
                       A mobile-friendly e-commerce platform that allows customers to browse and purchase products
                       online.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>React Native</Badge>
-                    <Badge>Redux</Badge>
-                    <Badge>Firebase</Badge>
+                    <Badge>Deep Learning</Badge>
+                    <Badge>OOP</Badge>
+                    <Badge>Python</Badge>
+                    <Badge>Pytorch</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -173,16 +173,104 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Project 4</CardTitle>
+                    <CardTitle>Autonomy computer vision software for a drone </CardTitle>
                     <CardDescription>
                       A data visualization dashboard that helps users analyze and interpret complex data sets.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>D3.js</Badge>
-                    <Badge>React</Badge>
-                    <Badge>Node.js</Badge>
-                    <Badge>PostgreSQL</Badge>
+                    <Badge>Computer Vision</Badge>
+                    <Badge>C</Badge>
+                    <Badge>Linux OS</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <img
+                    src="/placeholder.svg"
+                    width="550"
+                    height="310"
+                    alt="Project 4"
+                    className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                  />
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <div className="space-y-1">
+                    <CardTitle>UAV eVTOL control system to counter urban turbluence </CardTitle>
+                    <CardDescription>
+                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Control System Design</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <img
+                    src="/placeholder.svg"
+                    width="550"
+                    height="310"
+                    alt="Project 4"
+                    className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                  />
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <div className="space-y-1">
+                    <CardTitle>BizHacks 2024 </CardTitle>
+                    <CardDescription>
+                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Front-End</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <img
+                    src="/placeholder.svg"
+                    width="550"
+                    height="310"
+                    alt="Project 4"
+                    className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                  />
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <div className="space-y-1">
+                    <CardTitle>Anode X Cathode software in the loop simulator </CardTitle>
+                    <CardDescription>
+                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Matlab/Simulink</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <img
+                    src="/placeholder.svg"
+                    width="550"
+                    height="310"
+                    alt="Project 4"
+                    className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                  />
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <div className="space-y-1">
+                    <CardTitle>Ejector Testbench leader </CardTitle>
+                    <CardDescription>
+                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Matlab/Simulink</Badge>
+                    <Badge>C++</Badge>
                   </div>
                 </CardContent>
               </Card>
