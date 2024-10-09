@@ -159,7 +159,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                       <CardHeader>
                       <img
                         src="/SupplierBizHacks.png"
-                        srcSet="/SupplierBizHacks.svg 1x, /SupplierBizHacks@2x.svg 2x, /SupplierBizHacks@3x.svg 3x"
                         width="550"
                         height="310"
                         alt="Project 2"
