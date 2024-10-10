@@ -76,8 +76,8 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col gap-4" onSubmit={sendEmail}>
-                <Input type="text" name="user_name" placeholder="Name" className="max-w-lg flex-1" required />
+            <form className="flex flex-col gap-4" onSubmit={sendEmail}>
+                <Input type="text" name="from_name" placeholder="Name" className="max-w-lg flex-1" required />
                 <Input type="email" name="user_email" placeholder="Email" className="max-w-lg flex-1" required />
                 <Textarea name="message" placeholder="Message" className="max-w-lg flex-1" required />
                 <Button type="submit" className="w-full">
