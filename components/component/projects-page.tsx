@@ -242,7 +242,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:underline"
-                    > Open AIAA Certificate of Attendance <a />
+                    > Open AIAA Certificate of Attendance </a>
 
                     </CardDescription>
                   </div>
