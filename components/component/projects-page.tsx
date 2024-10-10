@@ -99,7 +99,11 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>Autonomous Driving System</CardTitle>
                     <CardDescription>
-                      A web application that helps users manage their tasks and projects more efficiently.
+                      Developed non-linear simulation models for a driving system, using OOP
+                      methods to create Partical Swarm Optimisation and Genetic Algorithms with subwswarms and island migration
+                      respectively, these were used used these to fit the model's parameters and tune
+                      controler gains. Additionally automatic linearisation of the model for use in a linear
+                      Model Predictive Controller for trajectory tracking, was implemented.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -112,7 +116,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/Forze_FuelCell.png"
                     width="550"
                     height="310"
                     alt="Project 2"
@@ -121,10 +125,25 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>H2 Anode Control System</CardTitle>
+                    <CardTitle>Fuel-Cell Control System</CardTitle>
                     <CardDescription>
-                      A mobile-friendly e-commerce platform that allows customers to browse and purchase products
-                      online.
+                      During time at Forze Hydrogen Racing, developed parts of a fuel cell control system. <br/>
+                      <ul className="list-disc pl-5 space-y-1">
+                        <li><em>Anode Testbench:</em> created a grey box model of the anode system
+                        from first principles and system identification. This was used to tune the
+                        control system for the anode first upon simulation, then upon the testbench.</li>
+                        <li><em>Fuel Cell supply system Software-In-Loop Simulator:</em> combined the models
+                        of anode with a pre-made cathode model, merged with the finite state machines (FSMs) to operate
+                        systems for the fuel cell. Provided a platform for the control system to be tested, to 
+                        ensure the control system was working as intended. </li>
+                        <li><em>Dry fuel cell testbench:</em> contributed to development of the FSMs needed 
+                        to safely operate the fuel cell testbench.</li>
+                        <li><em>Ejector testbench:</em> developed the control system files (Matlab/Simulink), and software (C++)
+                        to run the testbench. Secondly, developed the FSMs, testbench and simulation framework. Finally, 
+                        built a wiring harness to operate the testbench, and started to dry test it along with the software. Before 
+                        running into issues with the embedded system itself.
+                        </li>
+                      </ul>                    
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -220,7 +239,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>BizHacks 2024 </CardTitle>
+                    <CardTitle>Websites </CardTitle>
                     <CardDescription>
                       A data visualization dashboard that helps users analyze and interpret complex data sets.
                     </CardDescription>
@@ -242,7 +261,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Anode X Cathode software in the loop simulator </CardTitle>
+                    <CardTitle>Learning To Play Pacman from MsPacman </CardTitle>
                     <CardDescription>
                       A data visualization dashboard that helps users analyze and interpret complex data sets.
                     </CardDescription>
@@ -279,6 +298,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
+                    <br/>
                     <CardTitle>Various AI projects.</CardTitle>
                     <CardDescription>
                       A data visualization dashboard that helps users analyze and interpret complex data sets.
