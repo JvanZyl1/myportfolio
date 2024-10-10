@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { JvZIcon } from "@/components/ui/icons";
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 interface HomeScreenProps {
   onNavigateToProject: () => void;
@@ -14,6 +16,27 @@ interface HomeScreenProps {
 }
 
 export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavigateToContact }: HomeScreenProps) {
+  const [formData, setFormData] = useState({
+    from_name: '',
+    user_email: '',
+    message: '',
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_eq4mjgd', 'template_380vf3b', e.target as HTMLFormElement, 'hHcxzty4fU_4xzNsN')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+        setFormData({ from_name: '', user_email: '', message: '' }); // Clear the form fields upon success
+      }, (error) => {
+        console.error('Error sending email:', error.text);
+      });
+  };
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -489,10 +512,34 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                 I&apos;d love to hear from you! Feel free to reach out with any questions or opportunities.
               </p>
             </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">              <form className="flex flex-col gap-4">
-                <Input type="text" placeholder="Name" className="max-w-lg flex-1" />
-                <Input type="email" placeholder="Email" className="max-w-lg flex-1" />
-                <Textarea placeholder="Message" className="max-w-lg flex-1" />
+            <div className="mx-auto w-full max-w-sm space-y-2">
+              <form className="flex flex-col gap-4" onSubmit={sendEmail}>
+                <Input
+                  type="text"
+                  name="from_name"
+                  placeholder="Name"
+                  className="max-w-lg flex-1"
+                  value={formData.from_name}
+                  onChange={handleChange}
+                  required
+                />
+                <Input
+                  type="email"
+                  name="user_email"
+                  placeholder="Email"
+                  className="max-w-lg flex-1"
+                  value={formData.user_email}
+                  onChange={handleChange}
+                  required
+                />
+                <Textarea
+                  name="message"
+                  placeholder="Message"
+                  className="max-w-lg flex-1"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
                 <Button type="submit" className="w-full">
                   Send Message
                 </Button>
