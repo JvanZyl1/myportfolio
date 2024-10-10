@@ -241,7 +241,13 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       href="AIAAAttendanceCertificate.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-blue-500 underline"
+                    > Open AIAA Certificate of Attendance </a> <br />
+                    <a
+                      href="VeatlePoster.png"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline"
                     > Open AIAA Certificate of Attendance </a>
 
                     </CardDescription>
