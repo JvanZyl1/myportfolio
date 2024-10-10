@@ -308,7 +308,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       Double Q-Learning, Dueling Q-Networks, and Prioritized Experience Replay (PER) to enhance exploration and decision-making capabilities. 
                       This hierarchical approach enabled the agent to quickly adapt to the more complex environment of Ms.Pacman, significantly improving training 
                       efficiency compared to learning from scratch. The results demonstrated that transfer learning not only reduced computational requirements 
-                      but also optimized the agent's performance in dynamic and challenging gaming scenarios.
+                      but also optimized the agent&apos;s performance in dynamic and challenging gaming scenarios.
                       <strong>View:</strong><a
                         href="https://github.com/JvanZyl1/AtariRL"
                         target="_blank"
