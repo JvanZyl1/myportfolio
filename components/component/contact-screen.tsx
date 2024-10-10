@@ -97,14 +97,6 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
         <section id="contact" className="w-full py-4 bg-white">
           <div className="container mx-auto flex flex-col gap-4 px-4 md:px-6">
             <div className="space-y-2">
-              <div className="space-y-1">
-                <h3 className="text-2xl font-bold">Email</h3>
-                <p className="text-muted-foreground mx-2">
-                  <a href="#" className="text-primary hover:underline">
-                    jonathan.vanzyl2001@hotmail.com
-                  </a>
-                </p>
-              </div>
               <div className="space-y-2">
                 <div className="space-y-1">
                   <h3 className="text-2xl font-bold">Social Media</h3>
