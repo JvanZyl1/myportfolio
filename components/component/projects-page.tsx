@@ -101,7 +101,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                     <CardDescription>
                       Developed non-linear simulation models for a driving system, using OOP
                       methods to create Partical Swarm Optimisation and Genetic Algorithms with subwswarms and island migration
-                      respectively, these were used used these to fit the model's parameters and tune
+                      respectively, these were used used these to fit the model&apos;s parameters and tune
                       controler gains. Additionally automatic linearisation of the model for use in a linear
                       Model Predictive Controller for trajectory tracking, was implemented.
                     </CardDescription>
