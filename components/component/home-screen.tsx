@@ -281,11 +281,11 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
           </div>
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl lg:text-5xl">My Skills and Experience</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">My Skills and Experience</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;m a skilled engineer with a passion for building innovative control systems using novel technologies.
                   My areas of interest are: Deep Learning, Reinforcement Learning, Control Theory,
@@ -294,7 +294,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                 </p>
               </div>
             </div>
-            <div className="mx-auto max-w-5xl grid gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+            <div className="mx-auto max-w-5xl grid gap-6 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
               <div className="col-span-2">
                   <ul className="space-y-4">
                       <li>
@@ -335,7 +335,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       </li>
                   </ul>
               </div>
-              <div className="col-span-1 flex flex-col items-center justify-center space-y-2">
+              <div className="col-span-1 flex flex-wrap items-center justify-center gap-2 py-4">
                   <Badge className='bg-blue-500 text-white'>Control Systems</Badge>
                   <Badge className='bg-blue-500 text-white'>Hydrogen Fuel Cells</Badge>
                   <Badge className='bg-blue-500 text-white'>Drones</Badge>
@@ -357,7 +357,8 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
           </div>
         </section>
         <section id="education" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
+
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Education</div>
