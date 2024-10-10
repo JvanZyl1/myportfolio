@@ -1,8 +1,9 @@
-import Link from "next/link"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
-import { JvZIcon } from "@/components/ui/icons"
+import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import { JvZIcon } from "@/components/ui/icons";
+import emailjs from 'emailjs-com';
 
 interface ContactScreenProps {
   onNavigateToHome: () => void;
@@ -10,7 +11,19 @@ interface ContactScreenProps {
   onNavigateToProject: () => void;
 }
 
-export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNavigateToProject} : ContactScreenProps) {
+export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavigateToProject }: ContactScreenProps) {
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target as HTMLFormElement, 'YOUR_USER_ID')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+      }, (error) => {
+        console.error('Error sending email:', error.text);
+      });
+  };
+
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -19,24 +32,28 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
           <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 flex-wrap items-center justify-end">
-          <Link href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-          onClick={onNavigateToHome}
+          <Link
+            href="#"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}
+            onClick={onNavigateToHome}
           >
             Home
           </Link>
-          <Link href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-          onClick={onNavigateToProject}
+          <Link
+            href="#"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}
+            onClick={onNavigateToProject}
           >
             Projects
           </Link>
-          <Link href="#"
-          className="text-sm font-medium hover:underline underline-offset-4"
-          prefetch={false}
-          onClick={onNavigateToAcademics}>
+          <Link
+            href="#"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}
+            onClick={onNavigateToAcademics}
+          >
             Education
           </Link>
           <Link
@@ -48,6 +65,7 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
           </Link>
         </nav>
       </header>
+
       <main className="flex-1">
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
@@ -58,10 +76,10 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col gap-4">
-                <Input type="text" placeholder="Name" className="max-w-lg flex-1" />
-                <Input type="email" placeholder="Email" className="max-w-lg flex-1" />
-                <Textarea placeholder="Message" className="max-w-lg flex-1" />
+              <form className="flex flex-col gap-4" onSubmit={sendEmail}>
+                <Input type="text" name="user_name" placeholder="Name" className="max-w-lg flex-1" required />
+                <Input type="email" name="user_email" placeholder="Email" className="max-w-lg flex-1" required />
+                <Textarea name="message" placeholder="Message" className="max-w-lg flex-1" required />
                 <Button type="submit" className="w-full">
                   Send Message
                 </Button>
@@ -107,9 +125,10 @@ export function ContactScreen({onNavigateToHome, onNavigateToAcademics, onNaviga
           </div>
         </section>
       </main>
+
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center justify-between px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
       </footer>
     </div>
-  )
+  );
 }
