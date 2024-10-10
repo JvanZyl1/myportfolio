@@ -237,18 +237,18 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                     <em>Presented at AIAA Student Conference 2022.</em> <br />
                     Sponsored by Eve, a subsidiary of Embraer. <br />
                     Awarded a grade of 8.5 <br />
-                    <a
+                    <strong>View:</strong><a
                       href="AIAAAttendanceCertificate.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-500 underline"
-                    > Open AIAA Certificate of Attendance </a> <br />
-                    <a
+                    >AIAA Certificate of Attendance </a> <br />
+                    <strong>View:</strong><a
                       href="VeatlePoster.png"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-500 underline"
-                    > Open AIAA Certificate of Attendance </a>
+                    >  Poster </a>
 
                     </CardDescription>
                   </div>
@@ -262,7 +262,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/SupplierBizHacks.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -279,9 +279,9 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                     with an inventory management system: the aim to prevent food waste. <br />
                     <em>Won Most Colloborative Team Award</em> <br />
                     Following, decided to make the website you are seeing here, improving my skills through self-learning. <br />
-                    Cadence website: <a href = "https://cadence-buyer-rgy48akyt-jvanzyl1s-projects.vercel.app/" className="text-primary" target="_blank" rel="noopener noreferrer">buyer</a>
-                    and <a href = "https://cadence-tester-gxpb9yx8x-jvanzyl1s-projects.vercel.app/" className="text-primary" target="_blank" rel="noopener noreferrer">seller</a>. Please 
-                    note, I had no experience in website design before this.
+                    Cadence website: <a href = "https://cadence-buyer-rgy48akyt-jvanzyl1s-projects.vercel.app/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">buyer</a> 
+                    and <a href = "https://cadence-tester-gxpb9yx8x-jvanzyl1s-projects.vercel.app/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">seller</a>. <br />
+                    Please note, I had no experience in website design before this.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -292,7 +292,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/Pacman.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -303,18 +303,30 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>Learning To Play Pacman from MsPacman </CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                      Developed a deep reinforcement learning framework that applies transfer learning to accelerate the learning process in Ms.Pacman 
+                      by utilizing pre-learned knowledge from Pacman. The project implemented advanced techniques including Intrinsic Curiosity Module (ICM), 
+                      Double Q-Learning, Dueling Q-Networks, and Prioritized Experience Replay (PER) to enhance exploration and decision-making capabilities. 
+                      This hierarchical approach enabled the agent to quickly adapt to the more complex environment of Ms.Pacman, significantly improving training 
+                      efficiency compared to learning from scratch. The results demonstrated that transfer learning not only reduced computational requirements 
+                      but also optimized the agent's performance in dynamic and challenging gaming scenarios.
+                      <strong>View:</strong><a
+                        href="https://github.com/JvanZyl1/AtariRL"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 underline"> GitHub Repository here</a>.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Matlab/Simulink</Badge>
+                    <Badge>Python</Badge>
+                    <Badge>Deep Reinforcement Learning</Badge>
+                    <Badge>Pytorch</Badge>
                   </div>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/OperationsOptimisation.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -323,15 +335,13 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
-                    <CardTitle>Multi-Objective Optimisation of Vehicle Routing Problem</CardTitle>
+                    <CardTitle>Student Dream-Teams</CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    DARE and Lunar Zebro
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <Badge>Python</Badge>
-                    <Badge>Operations Research</Badge>
-                    <Badge>Git</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -339,14 +349,35 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                 <CardContent className="space-y-2">
                   <div className="space-y-1">
                     <br/>
-                    <CardTitle>Various AI projects.</CardTitle>
+                    <CardTitle>Various other projects.</CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    Done through university assignments and online courses, a portfolio mainly of AI and controls projects. <br />
+                    <ul className="list-disc pl-5 space-y-1">
+                      <li><strong>Double Pendulum Control:</strong> Data-driven modelling (LNN, GPR) and Iterative Learning Control. </li>
+                      <li><strong>XOR Classifier:</strong> Python and C++ (making classes from scratch).</li>
+                      <li><strong>Various AI Classifiers:</strong> Including MNIST, Cat vs. Non Cat, succesful goalkeeper kicks. Using techniques of:
+                      Convolutional & Recurrent NNs, Gated Recurrent Units and Long Short-Term Memories.   </li>
+                      <li><strong>GNC System Development:</strong> modeled a satellite&apos;s non-linear dynamics in Simulink, including sensor models and fusion of a star tracking & IMU’s measurements. Development of PID controllers to perform satellite rotations. </li>
+                      <li><strong>VOR Flight Controller:</strong>  trimmed and linearized a nonlinear F16 model, before performing an open loop analysis on its eigenmodes. Development of a pitch rate command system satisfying CAP and Gibson specifications. Development of an automatic VOR controller. Done in Matlab/Simulink. </li>
+                      <li><strong>
+                      Multi-Objective Optimization of Vehicle Routing for Cost, Time, and Environmental Impact Reduction:</strong> Developed a multi-objective optimization model for vehicle routing that minimizes transportation costs, 
+                        environmental impact, and delivery time using Mixed-Integer Linear Programming (MILP) and Gurobi solver. 
+                        The model is designed to balance economic and environmental objectives, demonstrating potential applications 
+                        for reducing operational expenses and carbon emissions in logistics operations.<strong> View:</strong><a 
+                          href = "https://github.com/JvanZyl1/VehicleRoutingProblem"
+                          className="text blue-500 underline"
+                          target="_blank"
+                          rel="noopener noreferrer"> GitHub Repository </a>.</li>
+                    </ul>
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <Badge>Python</Badge>
                     <Badge>Artificial Intelligence</Badge>
+                    <Badge>Control Systems Design</Badge>
+                    <Badge>Operations Research</Badge>
+                    <Badge>Git</Badge>
+                    <Badge>Matlab/Simulink</Badge>
                   </div>
                 </CardContent>
               </Card>

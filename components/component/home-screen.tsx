@@ -84,7 +84,9 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   I&apos;m a passionate engineer with expertise in aerospace, controls and artificial intelligence.
-                  My goal is to create innovative solutions that solve real-world problems.
+                  My goal is to create innovative solutions that solve real-world problems. <br />
+                  MSc Aerospace Enginering Student at TU Delft, graduating in Summer 2025, having held positions 
+                  at Forze Hydrogen Racing and Infosys, along with part time positions at student teams: Lunar Zebro and DARE (Moon Rover and Rockets).
                 </p>
                 <div className="space-x-4">
                   <Link
@@ -265,7 +267,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                       <CardHeader>
                       <img
                           src="/Veatle.png"
-                          srcSet="/Veatle.svg 1x, /Veatle@2x.svg 2x, /Veatle@3x.svg 3x"
                           width="550"
                           height="310"
                           alt="Project 5"
@@ -411,7 +412,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Education</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Academic Background</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Background</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I have a strong academic foundation that has prepared me for a successful career.
                 </p>
@@ -504,6 +505,13 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
                     <div className="font-medium">Bachelor of Science in Aerospace Engineering</div>
                     <div className="text-muted-foreground">Delft University of Technology</div>
+                  </div>
+                  <div className="grid gap-1 text-sm relative">
+                    <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
+                    <div className="font-medium">Part-time student team positions</div>
+                    <div className="text-muted-foreground">Solid Propulsion Engineer at <a href="https://dare.tudelft.nl/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">DARE</a> 
+                    and Mechanics Engineer at <a href="https://zebro.space/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">Lunar Zebro</a>
+                    </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
