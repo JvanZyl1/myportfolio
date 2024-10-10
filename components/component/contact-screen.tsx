@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -12,6 +13,15 @@ interface ContactScreenProps {
 }
 
 export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavigateToProject }: ContactScreenProps) {
+  const [formData, setFormData] = useState({
+    from_name: '',
+    user_email: '',
+    message: '',
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -19,6 +29,7 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
     emailjs.sendForm('service_eq4mjgd', 'template_380vf3b', e.target as HTMLFormElement, 'hHcxzty4fU_4xzNsN')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
+        setFormData({ from_name: '', user_email: '', message: '' }); // Clear the form fields upon success
       }, (error) => {
         console.error('Error sending email:', error.text);
       });
@@ -32,37 +43,10 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
           <span className="sr-only">Jonathan van Zyl&apos;s Portfolio</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 flex-wrap items-center justify-end">
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}
-            onClick={onNavigateToHome}
-          >
-            Home
-          </Link>
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}
-            onClick={onNavigateToProject}
-          >
-            Projects
-          </Link>
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}
-            onClick={onNavigateToAcademics}
-          >
-            Education
-          </Link>
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4 text-primary"
-            prefetch={false}
-          >
-            Contact
-          </Link>
+          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" onClick={onNavigateToHome}>Home</Link>
+          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" onClick={onNavigateToProject}>Projects</Link>
+          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" onClick={onNavigateToAcademics}>Education</Link>
+          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4 text-primary">Contact</Link>
         </nav>
       </header>
 
@@ -76,10 +60,33 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
-            <form className="flex flex-col gap-4" onSubmit={sendEmail}>
-                <Input type="text" name="from_name" placeholder="Name" className="max-w-lg flex-1" required />
-                <Input type="email" name="user_email" placeholder="Email" className="max-w-lg flex-1" required />
-                <Textarea name="message" placeholder="Message" className="max-w-lg flex-1" required />
+              <form className="flex flex-col gap-4" onSubmit={sendEmail}>
+                <Input
+                  type="text"
+                  name="from_name"
+                  placeholder="Name"
+                  className="max-w-lg flex-1"
+                  value={formData.from_name}
+                  onChange={handleChange}
+                  required
+                />
+                <Input
+                  type="email"
+                  name="user_email"
+                  placeholder="Email"
+                  className="max-w-lg flex-1"
+                  value={formData.user_email}
+                  onChange={handleChange}
+                  required
+                />
+                <Textarea
+                  name="message"
+                  placeholder="Message"
+                  className="max-w-lg flex-1"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
                 <Button type="submit" className="w-full">
                   Send Message
                 </Button>
