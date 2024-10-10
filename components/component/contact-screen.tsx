@@ -16,7 +16,7 @@ export function ContactScreen({ onNavigateToHome, onNavigateToAcademics, onNavig
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target as HTMLFormElement, 'YOUR_USER_ID')
+    emailjs.sendForm('service_eq4mjgd', 'template_380vf3b', e.target as HTMLFormElement, 'hHcxzty4fU_4xzNsN')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
       }, (error) => {
