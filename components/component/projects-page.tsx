@@ -189,7 +189,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/OpticalFlow.png"
+                    src="/Optical_Flow.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -235,8 +235,14 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                     with a focus on control under urban turbulence. My part mainly focused on building a 6 degree of freedom controls model.
                     To simulate and control the vehicle&apos;s response to a 8 Beaufort gust and wake around the Shard building in London. <br />
                     <em>Presented at AIAA Student Conference 2022.</em> <br />
-                    <em>Sponsored by Eve, a subsidiary of Embraer.</em>
-                    <em>Awarded a grade of 8.5</em>
+                    Sponsored by Eve, a subsidiary of Embraer. <br />
+                    Awarded a grade of 8.5 <br />
+                    <a
+                      href="AIAAAttendanceCertificate.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    > Open AIAA Certificate of Attendance <a />
 
                     </CardDescription>
                   </div>
