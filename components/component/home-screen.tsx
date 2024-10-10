@@ -264,7 +264,7 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                     <Card>
                       <CardHeader>
                       <img
-                          src="/Veatle.svg"
+                          src="/Veatle.png"
                           srcSet="/Veatle.svg 1x, /Veatle@2x.svg 2x, /Veatle@3x.svg 3x"
                           width="550"
                           height="310"

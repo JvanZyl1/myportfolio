@@ -88,7 +88,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/InfosysGolfBuggy.svg"
+                    src="/InfosysGolfBuggy.png"
                     width="550"
                     height="310"
                     alt="Project 1"
@@ -174,8 +174,8 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       semantic segmentation with marker-based watershed techniques. Despite achieving satisfactory visual results,
                       significant quantitative discrepanices with the original study were observed, highlighting
                       challenges in hyperparameter tuning and reporoducibility. <br />
-                      Blog is available: <Link href="https://jvanzyl1.github.io/3D-nuclei-segmentation-reproduction/README.html" className="text-primary">here</Link>. <br />
-                      Code is available: <Link href="https://github.com/JvanZyl1/3D-nuclei-segmentation-reproduction" className="text-primary">here</Link>. <br />
+                      Blog is available: <Link href="https://jvanzyl1.github.io/3D-nuclei-segmentation-reproduction/README.html" className="text-primary" target="_blank" rel="noopener noreferrer">here</Link>. <br />
+                      Code is available: <Link href="https://github.com/JvanZyl1/3D-nuclei-segmentation-reproduction" className="text-primary" target="_blank" rel="noopener noreferrer">here</Link>. <br />
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -189,7 +189,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/OpticalFlow.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -200,7 +200,12 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>Autonomy computer vision software for a drone </CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                      Using the  <a href="https://wiki.paparazziuav.org/wiki/Main_Page" className="text-primary" target="_blank" rel="noopener noreferrer">Paparrazi UAV</a> 
+                      software, developed computer vision and navigation software with a team of my peers. Tested this in the 
+                      <a  href="https://gazebosim.org/home" className="text-primary" target="_blank" rel="noopener noreferrer"> Gazebo</a> environment, aboard a Linus OS. 
+                      This allowed the drone to autonomously navigate a course, and avoid obstacles within TU Delft&apos;s Cyberzoo. This provided 
+                      hands-on experience in working with C, Linux OS and computer vision software. Projection, edge detection, background segmentation and 
+                      optical flow were researched and trialled during this project.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -213,7 +218,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/VeatleCFD.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -224,11 +229,21 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>UAV eVTOL control system to counter urban turbluence </CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    May 2022 - June 2022 <br />
+                    Design Synthesis Exercise, a 10 week group project for BSc Aerospace students at TU Delft for graduation. <br />
+                    Brief: The design of an autonomous, sustainable, low-noise, electric vertical take-off Urban Air Mobility Vehicle
+                    with a focus on control under urban turbulence. My part mainly focused on building a 6 degree of freedom controls model.
+                    To simulate and control the vehicle&apos;s response to a 8 Beaufort gust and wake around the Shard building in London. <br />
+                    <em>Presented at AIAA Student Conference 2022.</em> <br />
+                    <em>Sponsored by Eve, a subsidiary of Embraer.</em>
+                    <em>Awarded a grade of 8.5</em>
+
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <Badge>Control System Design</Badge>
+                    <Badge>Model Predictive Control</Badge>
+                    <Badge>Matlab/Simulink</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -246,7 +261,15 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>Websites </CardTitle>
                     <CardDescription>
-                      A data visualization dashboard that helps users analyze and interpret complex data sets.
+                    Learned how to make front-end of website in a few hours during the 2024 iteration of the 
+                    BizHacks hackathon in Bengaluru, India. Here I made two bare-boned UI&apos;s for a platform 
+                    called <em>Cadence</em>. This was inspired by To-Good-To-Go, but for wholesale suppliers, along 
+                    with an inventory management system: the aim to prevent food waste. <br />
+                    <em>Won Most Colloborative Team Award</em> <br />
+                    Following, decided to make the website you are seeing here, improving my skills through self-learning. <br />
+                    Cadence website: <a href = "https://cadence-buyer-rgy48akyt-jvanzyl1s-projects.vercel.app/" className="text-primary" target="_blank" rel="noopener noreferrer">buyer</a>
+                    and <a href = "https://cadence-tester-gxpb9yx8x-jvanzyl1s-projects.vercel.app/" className="text-primary" target="_blank" rel="noopener noreferrer">seller</a>. Please 
+                    note, I had no experience in website design before this.
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
@@ -318,9 +341,11 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
             </div>
             <div className="flex justify-center">
               <Link
-                href="#"
+                href="https://github.com/JvanZyl1"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
+                target = "_blank"
+                rel="noopener noreferrer"
               >
                 View More on GitHub
               </Link>
