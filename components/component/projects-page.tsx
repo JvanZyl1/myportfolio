@@ -88,7 +88,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/InfosysGolfBuggy.svg"
                     width="550"
                     height="310"
                     alt="Project 1"
@@ -158,7 +158,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/placeholder.svg"
+                    src="/QCANet_architecture.png"
                     width="550"
                     height="310"
                     alt="Project 3"
@@ -169,8 +169,13 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>3D Semantic Segmentation of Mouse Nuclei</CardTitle>
                     <CardDescription>
-                      A mobile-friendly e-commerce platform that allows customers to browse and purchase products
-                      online.
+                      Reproduced and evaluated the performance of QCANet, a novel approach
+                      for instance segmentation in 3D fluroscence microscopy images, which combines
+                      semantic segmentation with marker-based watershed techniques. Despite achieving satisfactory visual results,
+                      significant quantitative discrepanices with the original study were observed, highlighting
+                      challenges in hyperparameter tuning and reporoducibility. <br />
+                      Blog is available: <Link href="https://jvanzyl1.github.io/3D-nuclei-segmentation-reproduction/README.html" className="text-primary">here</Link>. <br />
+                      Code is available: <Link href="https://github.com/JvanZyl1/3D-nuclei-segmentation-reproduction" className="text-primary">here</Link>. <br />
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
