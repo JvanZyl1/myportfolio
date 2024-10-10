@@ -80,13 +80,14 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                   Jonathan van Zyl
                 </h1>
                 <p className="text-muted-foreground md:text-xl">Controls and AI Engineer</p>
+                <p className="text-muted-foreground text-sm md:text-base">MSc Aerospace Enginering Student at TU Delft, graduating in Summer 2025, having held positions 
+                at Forze Hydrogen Racing and Infosys, along with part time positions at student teams: Lunar Zebro and DARE (Moon Rover and Rockets).</p>
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   I&apos;m a passionate engineer with expertise in aerospace, controls and artificial intelligence.
                   My goal is to create innovative solutions that solve real-world problems. <br />
-                  MSc Aerospace Enginering Student at TU Delft, graduating in Summer 2025, having held positions 
-                  at Forze Hydrogen Racing and Infosys, along with part time positions at student teams: Lunar Zebro and DARE (Moon Rover and Rockets).
+                  
                 </p>
                 <div className="space-x-4">
                   <Link
@@ -455,9 +456,9 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                       <br />
                       Part-time positions at student teams:
                       <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-                        <li> Delft Aerospace Rocket Engineering : Solid Propulsion Engineer</li>
-                        <li> Lunar Zebro : Mechanics Engineer </li>
-                      </ul>
+                        <li>Solid Propulsion Engineer at <a href="https://dare.tudelft.nl/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">DARE</a>.</li>
+                        <li>Mechanics Engineer at <a href="https://zebro.space/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">Lunar Zebro</a>.</li>
+                      </ul>                    
                     </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
@@ -505,13 +506,6 @@ export function HomeScreen({onNavigateToProject, onNavigateToAcademics, onNaviga
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
                     <div className="font-medium">Bachelor of Science in Aerospace Engineering</div>
                     <div className="text-muted-foreground">Delft University of Technology</div>
-                  </div>
-                  <div className="grid gap-1 text-sm relative">
-                    <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />
-                    <div className="font-medium">Part-time student team positions</div>
-                    <div className="text-muted-foreground">Solid Propulsion Engineer at <a href="https://dare.tudelft.nl/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">DARE</a> 
-                    and Mechanics Engineer at <a href="https://zebro.space/" className="text blue-500 underline" target="_blank" rel="noopener noreferrer">Lunar Zebro</a>
-                    </div>
                   </div>
                   <div className="grid gap-1 text-sm relative">
                     <div className="aspect-square w-3 bg-primary rounded-full absolute right-0 translate-x-[29.5px] z-10 top-1" />

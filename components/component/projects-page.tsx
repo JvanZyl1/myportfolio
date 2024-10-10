@@ -308,7 +308,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       Double Q-Learning, Dueling Q-Networks, and Prioritized Experience Replay (PER) to enhance exploration and decision-making capabilities. 
                       This hierarchical approach enabled the agent to quickly adapt to the more complex environment of Ms.Pacman, significantly improving training 
                       efficiency compared to learning from scratch. The results demonstrated that transfer learning not only reduced computational requirements 
-                      but also optimized the agent&apos;s performance in dynamic and challenging gaming scenarios.
+                      but also optimized the agent&apos;s performance in dynamic and challenging gaming scenarios. <br />
                       <strong>View:</strong><a
                         href="https://github.com/JvanZyl1/AtariRL"
                         target="_blank"
@@ -326,7 +326,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
               <Card>
                 <CardHeader>
                   <img
-                    src="/OperationsOptimisation.png"
+                    src="/LunarZebro.png"
                     width="550"
                     height="310"
                     alt="Project 4"
@@ -337,11 +337,12 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                   <div className="space-y-1">
                     <CardTitle>Student Dream-Teams</CardTitle>
                     <CardDescription>
-                    DARE and Lunar Zebro
+                    Worked on solid rockets at DARE: Delft Aerospace Rocket Engineering. <br />
+                    Designed an antenna deployment system for a Moon rover at Lunar Zebro
                     </CardDescription>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Python</Badge>
+                    <Badge>Aerospace Engineering</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -363,7 +364,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       Multi-Objective Optimization of Vehicle Routing for Cost, Time, and Environmental Impact Reduction:</strong> Developed a multi-objective optimization model for vehicle routing that minimizes transportation costs, 
                         environmental impact, and delivery time using Mixed-Integer Linear Programming (MILP) and Gurobi solver. 
                         The model is designed to balance economic and environmental objectives, demonstrating potential applications 
-                        for reducing operational expenses and carbon emissions in logistics operations.<strong> View:</strong><a 
+                        for reducing operational expenses and carbon emissions in logistics operations.<br /><strong> View:</strong><a 
                           href = "https://github.com/JvanZyl1/VehicleRoutingProblem"
                           className="text blue-500 underline"
                           target="_blank"
