@@ -368,7 +368,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="after:absolute after:inset-y-0 after:w-px after:bg-muted-foreground/20 relative pl-6 after:left-0 grid gap-10">
                   <div className="grid gap-1 text-sm relative">
@@ -482,15 +482,14 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
         </section>
 
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+          <div className="container mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 I&apos;d love to hear from you! Feel free to reach out with any questions or opportunities.
               </p>
             </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col gap-4">
+            <div className="mx-auto w-full max-w-sm space-y-2">              <form className="flex flex-col gap-4">
                 <Input type="text" placeholder="Name" className="max-w-lg flex-1" />
                 <Input type="email" placeholder="Email" className="max-w-lg flex-1" />
                 <Textarea placeholder="Message" className="max-w-lg flex-1" />
@@ -502,7 +501,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center justify-between px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">&copy; 2024 Jonathan van Zyl. All rights reserved.</p>
       </footer>
     </div>
