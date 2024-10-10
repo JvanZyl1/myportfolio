@@ -357,7 +357,7 @@ export function ProjectsPage({onNavigateToHome, onNavigateToAcademics, onNavigat
                       <li><strong>XOR Classifier:</strong> Python and C++ (making classes from scratch).</li>
                       <li><strong>Various AI Classifiers:</strong> Including MNIST, Cat vs. Non Cat, succesful goalkeeper kicks. Using techniques of:
                       Convolutional & Recurrent NNs, Gated Recurrent Units and Long Short-Term Memories.   </li>
-                      <li><strong>GNC System Development:</strong> modeled a satellite&apos;s non-linear dynamics in Simulink, including sensor models and fusion of a star tracking & IMU’s measurements. Development of PID controllers to perform satellite rotations. </li>
+                      <li><strong>GNC System Development:</strong> modeled a satellite&apos;s non-linear dynamics in Simulink, including sensor models and fusion of a star tracking & IMU&apos;s measurements. Development of PID controllers to perform satellite rotations. </li>
                       <li><strong>VOR Flight Controller:</strong>  trimmed and linearized a nonlinear F16 model, before performing an open loop analysis on its eigenmodes. Development of a pitch rate command system satisfying CAP and Gibson specifications. Development of an automatic VOR controller. Done in Matlab/Simulink. </li>
                       <li><strong>
                       Multi-Objective Optimization of Vehicle Routing for Cost, Time, and Environmental Impact Reduction:</strong> Developed a multi-objective optimization model for vehicle routing that minimizes transportation costs, 
