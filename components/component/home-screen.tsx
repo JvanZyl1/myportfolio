@@ -72,17 +72,17 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
           </div>
         </section>
         <section id="projects" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container space-y-12 px-4 md:px-6">
+        <div className="container mx-auto space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Featured Projects</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Work</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl lg:text-5xl">My Work</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Check out some of the projects I&apos;ve worked on and the technologies I&apos;ve used.
                 </p>
               </div>
             </div>
-            <div className="mx-auto max-w-5xl">
+            <div className="mx-auto max-w-[1300px]">
               <Carousel className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                   <CarouselItem>
@@ -90,10 +90,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       <CardHeader>
                         <img
                           src="/QCANet_architecture.png"
-                          width="550"
-                          height="310"
-                          alt="Project 1"
-                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                          className="w-full h-auto mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
                         />
                       </CardHeader>
                       <CardContent className="space-y-2">
@@ -123,10 +120,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       <CardHeader>
                       <img
                         src="/SupplierBizHacks.png"
-                        width="550"
-                        height="310"
-                        alt="Project 2"
-                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
+                        className="w-full h-auto mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
                       />
                       </CardHeader>
                       <CardContent className="space-y-2">
@@ -164,11 +158,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       <CardHeader>
                       <video
                         src="/DroneWorking.mp4"
-                        width="550"
-                        height="310"
-                        controls
-                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                      >
+                        className="w-full h-auto mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center" controls>
                         <track kind="captions" src="/captions.vtt" label="English" srcLang="en" default />
                       </video>
                       </CardHeader>
@@ -196,11 +186,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       <CardHeader>
                       <img
                         src="/Forze_FuelCell.png"
-                        width="550"
-                        height="310"
-                        alt="Project 4"
-                        className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                      />
+                        className="w-full h-auto mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center" />
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
@@ -228,11 +214,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                       <CardHeader>
                       <img
                           src="/Veatle.png"
-                          width="550"
-                          height="310"
-                          alt="Project 5"
-                          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center"
-                        />
+                          className="w-full h-auto mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center" />
                       </CardHeader>
                       <CardContent className="space-y-2">
                         <div className="space-y-1">
@@ -297,7 +279,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Skills and Experience</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl lg:text-5xl">My Skills and Experience</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;m a skilled engineer with a passion for building innovative control systems using novel technologies.
                   My areas of interest are: Deep Learning, Reinforcement Learning, Control Theory,
@@ -373,7 +355,7 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Education</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Background</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl lg:text-5xl">My Background</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I have a strong academic foundation that has prepared me for a successful career.
                 </p>
