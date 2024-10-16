@@ -132,7 +132,8 @@ export function HomeScreen({ onNavigateToProject, onNavigateToAcademics, onNavig
                           target="_blank"
                           rel="noopener noreferrer">
                           Read the Article by clicking here!
-                          </Link>
+                          </Link> <br />
+                          Image Source: Y. Tokuoka et al., &apos;3D convolutional neural networks-based segmentation to acquire quantitative criteria of the nucleus during mouse embryogenesis&apos;, npj Syst Biol Appl, vol. 6, no. 1, p. 32, Oct. 2020, doi: 10.1038/s41540-020-00152-8.
                           </CardDescription>
                         </div>
                         <div className="flex flex-wrap gap-2">
